@@ -43,9 +43,17 @@ const Footer = () => {
         <div className='w-1/2 pt-10'>
         <p className='pb-5 hover:text-lg'>Follow us</p>
         <div className='flex justify-between pt-3' >
+          <NavLink to={"https://www.instagram.com/accounts/login/"}>
         <i class="fa-brands fa-instagram fa-xl"></i>
+          </NavLink>
+
+          <NavLink to={"https://www.linkedin.com/feed/"}>
         <i class="fa-brands fa-linkedin fa-xl"></i>
+          </NavLink>
+
+          <NavLink to={"https://twitter.com/"}>
         <i class="fa-brands fa-x-twitter fa-xl"></i>
+          </NavLink>
         </div>
         </div>
         </div>
