@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Navbar from "./navbar";
 import Hero_sec from "./hero_sec";
-import { context1, customHook1 } from "../../context/prod_context";
+import { customHook1 } from "../../context/prod_context";
 
 const Landing = () => {
   const { name } = customHook1();
